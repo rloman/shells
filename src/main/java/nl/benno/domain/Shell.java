@@ -8,6 +8,7 @@ public class Shell {
    private double width;
    
    private String name;
+   
    private String geology;
    
    public double getLength() {
@@ -42,17 +43,18 @@ public class Shell {
       this.name = name;
    }
    
-   public String getGeology() {
-      return geology;
-   }
-   
-   public void setGeology(String geology) {
-      this.geology = geology;
-   }
 
    @Override
    public String toString() {
       return "Shell [width=" + width + ", name=" + name + ", geology=" + geology + "]";
+   }
+
+   public void setGeology(String geology) {
+      this.geology = geology;
+   }
+
+   public String getGeology() {
+       return this.geology;
    }
 
 }

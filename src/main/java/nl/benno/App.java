@@ -9,6 +9,7 @@ public class App {
       Shell shell = new Shell();
       shell.setName("Cardium gigas");
       shell.setWidth(3.5);
+      shell.setGeology("Lethian");
       
       System.out.println(shell);
 
