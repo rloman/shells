@@ -32,6 +32,7 @@ public class ShellTest {
    public void testSetWidth() {
       this.shell.setWidth(3.5);
       
+         // some comment for testing
       Assert.assertTrue(3.5 == shell.getWidth());
    }
 
