@@ -7,6 +7,8 @@ public class Shell {
    private double height;
    private double width;
    
+   private String url;
+   
    private String name;
    private String geology;
    
@@ -55,6 +57,16 @@ public class Shell {
    @Override
    public String toString() {
       return "Shell [width=" + width + ", name=" + name + ", geology=" + geology + "]";
+   }
+
+   
+   public String getUrl() {
+      return url;
+   }
+
+   
+   public void setUrl(String url) {
+      this.url = url;
    }
 
  
