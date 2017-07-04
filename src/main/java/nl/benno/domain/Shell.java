@@ -50,4 +50,9 @@ public class Shell {
       this.geology = geology;
    }
 
+   @Override
+   public String toString() {
+      return "Shell [width=" + width + ", name=" + name + ", geology=" + geology + "]";
+   }
+
 }
