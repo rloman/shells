@@ -27,5 +27,12 @@ public class ShellTest {
       Assert.assertEquals("Cardium gigas", name);
       
    }
+   
+   @Test
+   public void testSetWidth() {
+      this.shell.setWidth(3.5);
+      
+      Assert.assertTrue(3.5 == shell.getWidth());
+   }
 
 }
